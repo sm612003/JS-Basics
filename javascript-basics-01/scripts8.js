@@ -1,9 +1,13 @@
-function showmessage() {
-    let age = parseInt(document.getElementById("age").value);
 
-    if (!isNaN(age) && age>18 ) {
-        alert(" you are over 18");
-    } else {
-        alert(" you are under 18");
-    }
-}
+
+    document.getElementById("validate").addEventListener("click", function(event) {
+        var ageInput = document.getElementById("age").value;
+        var resultDiv = document.getElementById("result");
+    
+        if (parseInt(ageInput) > 18) {
+            alert("you are over 18 ")
+    
+        } else {
+            alert( "You are under 18");
+        }
+    });
