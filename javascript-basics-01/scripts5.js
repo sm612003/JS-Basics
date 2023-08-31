@@ -1,15 +1,13 @@
-function submiting() {
-         let  num1=document.forms["form2"]["first_number"].value;
-        let num2=document.forms["form2"]["second_number"].value;
-        // store input numbers
+var num1 = prompt("Please enter num1:");
+var num2 = prompt("Please enter num2:");
 
 
-//add two numbers
+
 const sum = num1 * num2;
 
-// display the sum
+
 
     
-        window.alert(sum);
-    }
+   alert(sum);
+    
     
