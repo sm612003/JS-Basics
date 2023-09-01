@@ -80,37 +80,46 @@ const createNumbersArray = () => {
 };
 
 const replaceElement = (languages) => {
-
+languages[2]="Javascript";
+return languages
 };
 
 const addElement = (languages) => {
-
+   languages.push("Ruby","Python");
+   return languages 
 };
 
 const addNumberElement = (numbers) => {
-
+   numbers.unshift(-2 , -1 );
+   return numbers
 }
 
 const removeFirst = (languages) => {
-
+   languages.shift();
+   return languages
 }
 
 const removeLast = (languages) => {
-
+   languages.pop();
+   return languages
 }
 
 const convertStrToArr = (social_arr) => {
-
+let i= social_arr.split(",");
+   return i;
 }
 
 const convertArrToStr = (languages) => {
-
+let a = languages.join(',');
+return a
 }
 
 const sortArr = (social_arr) => {
-
+   let i = social_arr.sort();
+   return i
 }
 
 const invertArr = (social_arr) => {
-
+     let i = social_arr.reverse();
+     return i 
 }
