@@ -75,12 +75,12 @@ return array
 
 const createNumbersArray = () => {
    let number = new Array(0, 1, 2, 3, 4,5);
-   return number;
+   return number
    
 };
 
 const replaceElement = (languages) => {
-  
+
 };
 
 const addElement = (languages) => {
